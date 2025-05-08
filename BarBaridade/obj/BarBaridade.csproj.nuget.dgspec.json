@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.Tópicos Especiais em Sistemas\\Projeto Minimal API\\BarBaridade\\BarBaridade.csproj": {}
+    "C:\\.Tópicos Especiais em Sistemas\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj": {}
   },
   "projects": {
-    "C:\\.Tópicos Especiais em Sistemas\\Projeto Minimal API\\BarBaridade\\BarBaridade.csproj": {
+    "C:\\.Tópicos Especiais em Sistemas\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.Tópicos Especiais em Sistemas\\Projeto Minimal API\\BarBaridade\\BarBaridade.csproj",
+        "projectUniqueName": "C:\\.Tópicos Especiais em Sistemas\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj",
         "projectName": "BarBaridade",
-        "projectPath": "C:\\.Tópicos Especiais em Sistemas\\Projeto Minimal API\\BarBaridade\\BarBaridade.csproj",
+        "projectPath": "C:\\.Tópicos Especiais em Sistemas\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj",
         "packagesPath": "C:\\Users\\zefar\\.nuget\\packages\\",
-        "outputPath": "C:\\.Tópicos Especiais em Sistemas\\Projeto Minimal API\\BarBaridade\\obj\\",
+        "outputPath": "C:\\.Tópicos Especiais em Sistemas\\projeto-c-minimal-api\\BarBaridade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zefar\\AppData\\Roaming\\NuGet\\NuGet.Config"
