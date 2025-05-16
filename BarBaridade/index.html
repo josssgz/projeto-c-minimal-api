@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarBaridade</title>
+</head>
+<body>
+    <h1>BarBaridade Drinks</h1>
+
+    <button id="btn-todas">Ver Catálogo</button>
+
+    <form action="" method="get" id="form-buscaId">
+        <h2>Buscar Bebida por ID</h2>
+        <input type="number" id="input-buscaId" placeholder="ID da Bebida" required min="1" max="999">
+        <button type="submit">Buscar</button>
+    </form>
+
+    <form action="" method="get" id="form-post">
+        <h2>Adicionar Bebida</h2>
+        <input type="text" id="newNome" placeholder="Nome" required>
+        <input type="number" id="newTeor" placeholder="Teor Alcoólico" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <form action="" method="get" id="form-put">
+        <h2>Editar Bebida</h2>
+        <input type="number" id="updatedId" placeholder="ID" required>
+        <input type="text" id="updatedNome" placeholder="Novo Nome" required>
+        <input type="number" id="updatedTeor" placeholder="Novo Teor Alcoólico" required>
+        <button type="submit">Atualizar</button>
+    </form>
+
+    <form action="" method="get" id="form-delete">
+        <h2>Apagar Bebida</h2>
+        <input type="number" id="input-deleteId" placeholder="ID">
+        <button type="submit">Apagar</button>
+    </form>
+
+    <section>
+        <h2>RESULTADO:</h2>
+        <ul id="lista-bebidas"></ul>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
