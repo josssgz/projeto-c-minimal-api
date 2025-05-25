@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4P1argwvUZM=",
+  "dgSpecHash": "8506wWA9PB0=",
   "success": true,
-  "projectFilePath": "C:\\.Tópicos Especiais em Sistemas\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj",
+  "projectFilePath": "C:\\.PROJETO C\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zefar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\zefar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.14\\microsoft.aspnetcore.openapi.8.0.14.nupkg.sha512",

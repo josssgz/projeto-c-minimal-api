@@ -28,7 +28,9 @@ const getBebidas = async () => {
 
         bebida.forEach(bebida => {
             const newLi = document.createElement('li');
-            newLi.innerHTML = `ID: ${bebida.id} | Nome: ${bebida.nome} | Teor Alcoólico: ${bebida.teorAlcoolico}%`;
+            newLi.innerHTML = `<strong>Cod. ${bebida.id}</strong> <br>
+             Nome: ${bebida.nome} <br>
+             Teor Alcoólico: ${bebida.teorAlcoolico}%`;
             listaBebidas.appendChild(newLi);
         });
 
@@ -161,7 +163,7 @@ formPost.addEventListener('submit', (event) => {
     event.preventDefault();
     postBebida({
         nome: inputNome.value,
-        peso: inputTeor.value
+        teorAlcoolico: inputTeor.value
     });
 });
 
