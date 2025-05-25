@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.PROJETO C\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj": {}
+    "C:\\Users\\User\\projeto-c-minimal-api-alteradoo\\BarBaridade\\BarBaridade.csproj": {}
   },
   "projects": {
-    "C:\\.PROJETO C\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj": {
+    "C:\\Users\\User\\projeto-c-minimal-api-alteradoo\\BarBaridade\\BarBaridade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.PROJETO C\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj",
+        "projectUniqueName": "C:\\Users\\User\\projeto-c-minimal-api-alteradoo\\BarBaridade\\BarBaridade.csproj",
         "projectName": "BarBaridade",
-        "projectPath": "C:\\.PROJETO C\\projeto-c-minimal-api\\BarBaridade\\BarBaridade.csproj",
-        "packagesPath": "C:\\Users\\zefar\\.nuget\\packages\\",
-        "outputPath": "C:\\.PROJETO C\\projeto-c-minimal-api\\BarBaridade\\obj\\",
+        "projectPath": "C:\\Users\\User\\projeto-c-minimal-api-alteradoo\\BarBaridade\\BarBaridade.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\projeto-c-minimal-api-alteradoo\\BarBaridade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zefar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -46,16 +46,6 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.14, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

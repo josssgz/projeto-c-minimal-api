@@ -204,3 +204,37 @@ C:\.PROJETO C\projeto-c-minimal-api\BarBaridade\obj\Debug\net8.0\refint\BarBarid
 C:\.PROJETO C\projeto-c-minimal-api\BarBaridade\obj\Debug\net8.0\BarBaridade.pdb
 C:\.PROJETO C\projeto-c-minimal-api\BarBaridade\obj\Debug\net8.0\BarBaridade.genruntimeconfig.cache
 C:\.PROJETO C\projeto-c-minimal-api\BarBaridade\obj\Debug\net8.0\ref\BarBaridade.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\appsettings.json
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\BarBaridade.exe
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\BarBaridade.deps.json
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\BarBaridade.runtimeconfig.json
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\BarBaridade.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\BarBaridade.pdb
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.csproj.AssemblyReference.cache
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.AssemblyInfoInputs.cache
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.AssemblyInfo.cs
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.csproj.CoreCompileInputs.cache
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.sourcelink.json
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\staticwebassets\msbuild.BarBaridade.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\staticwebassets\msbuild.build.BarBaridade.props
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BarBaridade.props
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BarBaridade.props
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\scopedcss\bundle\BarBaridade.styles.css
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBarid.E2A899A2.Up2Date
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\refint\BarBaridade.dll
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.pdb
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\BarBaridade.genruntimeconfig.cache
+C:\Users\User\projeto-c-minimal-api-alteradoo\BarBaridade\obj\Debug\net8.0\ref\BarBaridade.dll
