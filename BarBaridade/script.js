@@ -184,7 +184,7 @@ const secaoResultado = document.getElementById('resultado-mistura');
 
 let todasBebidas = [];
 
-// Função que carrega as opções dos selects de mistura puxando as bebidas do backend
+// Função que carrega as opções dos selects de mistura puxando as bebidas 
 const carregarOpcoes = async () => {
   try {
     const response = await fetch(apiURL);
@@ -194,7 +194,7 @@ const carregarOpcoes = async () => {
 
     // Preenche os dois selects com as bebidas retornadas da API
     [select1, select2].forEach(select => {
-      select.innerHTML = '<option value="">--Selecione--</option>'; // opção padrão
+      select.innerHTML = '<option value="">--Selecione--</option>'; 
       todasBebidas.forEach(b => {
         const option = document.createElement('option');
         option.value = b.id;
@@ -207,6 +207,8 @@ const carregarOpcoes = async () => {
   }
 };
 
+
+//alterado apenas essa parte
 formMistura.addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -219,18 +221,41 @@ formMistura.addEventListener('submit', (e) => {
     return;
   }
 
-  const nomeCombinado = selecionadas.map(b => b.nome).join(" + ");
+  const nomeCombinado = GeradorDeMistura.obterNomeAleatorio();
   const mediaTeor = (
     selecionadas.reduce((soma, b) => soma + b.teorAlcoolico, 0) / 2
   ).toFixed(1);
 
   nomeMistura.textContent = nomeCombinado;
   teorMistura.textContent = mediaTeor;
+
+  let pFrase = document.getElementById('frase-mistura');
+  if (!pFrase) {
+    pFrase = document.createElement('p');
+    pFrase.id = 'frase-mistura';
+    secaoResultado.appendChild(pFrase);
+  }
+  pFrase.textContent = GeradorDeMistura.obterFraseAleatoria();
+
+  let img = document.getElementById('imagem-mistura');
+  if (!img) {
+    img = document.createElement('img');
+    img.id = 'imagem-mistura';
+    img.style.maxWidth = '300px';
+    secaoResultado.appendChild(img);
+  }
+  img.src = GeradorDeMistura.obterImagemAleatoria();
+  img.alt = 'Imagem da mistura';
+
   secaoResultado.style.display = "block";
 });
 
-// ----------------------------------------------
+
 // Chamada da função para carregar as opções
-// Isso garante que, ao carregar a página, os selects já estarão preenchidos
-// ----------------------------------------------
 carregarOpcoes();
+
+
+
+
+
+

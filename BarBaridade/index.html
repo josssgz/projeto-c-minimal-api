@@ -43,8 +43,7 @@
     </section>  
 
 
-
-    <!-- Misturar Bebidas (Centralizado) -->
+    <!-- Mistura Bebidas  -->
     <div class="main-content">
         <form id="form-mistura">
         <h2>Misturar Bebidas</h2>
@@ -58,21 +57,24 @@
         <label for="select2">Bebida 2:</label>
         <select id="select2" required>
             <option value="">--Selecione--</option>
-            <!-- Opções serão inseridas via JS -->
+            <!-- inseridas via JS tb-->
         </select>
   
         <button type="submit">Misturar</button>
         </form>
   
-        <div id="resultado-mistura">
-        <h2>Resultado da Mistura</h2>
-        <p><strong>Nome:</strong> <span id="nome-mistura"></span></p>
-        <p><strong>Teor alcoólico total:</strong> <span id="teor-mistura"></span>%</p>
+       <div id="resultado-mistura">
+            <h2>Resultado da Mistura</h2>
+            <p><strong>Nome:</strong> <span id="nome-mistura"></span></p>
+            <p><strong>Teor alcoólico total:</strong> <span id="teor-mistura"></span>%</p>
+            <p><strong>Descrição:</strong> <span id="frase-mistura"></span></p>  
+            <img id="imagem-mistura" src="" alt="Imagem do drink" style="max-width: 200px; margin-top: 10px;">  
+
         </div>
-    </div>
 
 
-    
+    <script src="./GeradorDeMistura.cjs"></script>
     <script src="./script.js"></script>
+
 </body>
 </html>
