@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using BarBaridade;
-using System.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,20 +23,6 @@ var app = builder.Build();
 app.UseCors();
 
 app.UseHttpsRedirection();
-
-var url = "http://127.0.0.1:5500/BarBaridade/index.html"; // Ajuste a URL conforme necessário
-app.Lifetime.ApplicationStarted.Register(() =>
-{
-    try
-    {
-        var ps = new ProcessStartInfo(url) { UseShellExecute = true };
-        Process.Start(ps);
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Erro ao abrir o navegador: {ex.Message}");
-    }
-});
 
 app.MapGet("/bebidas", (AppDbContext db) => {
     var bebidas = db.TabelaBebidas.ToList();
