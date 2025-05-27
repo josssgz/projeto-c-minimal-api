@@ -17,7 +17,7 @@ body {
 /* Menu lateral */
 #menu-crud {
   background: #1c2b3a; /* Azul escuro */
-  width: 280px;
+  width: 350px;
   padding: 20px;
   border-right: 1px solid #0f1a26;
   display: flex;

@@ -59,7 +59,9 @@ const getBebidaPorId = async (id) => {
         const bebida = await response.json();
 
         const newLi = document.createElement('li');
-        newLi.innerText = `ID: ${bebida.id} | Nome: ${bebida.nome} | Teor Alcoólico: ${bebida.teorAlcoolico}%`;
+        newLi.innerHTML = `<strong>Cod. ${bebida.id}</strong> <br>
+         Nome: ${bebida.nome}<br>
+         Teor Alcoólico: ${bebida.teorAlcoolico}%`;
         listaBebidas.appendChild(newLi);
     } catch (error) {
         console.log(error.message);
@@ -222,8 +224,9 @@ formMistura.addEventListener('submit', (e) => {
   }
 
   const nomeCombinado = GeradorDeMistura.obterNomeAleatorio();
-  const mediaTeor = (
-    selecionadas.reduce((soma, b) => soma + b.teorAlcoolico, 0) / 2
+  const mediaTeor = Math.min(
+    selecionadas.reduce((soma, b) => soma + b.teorAlcoolico, 0),
+    100
   ).toFixed(1);
 
   nomeMistura.textContent = nomeCombinado;
