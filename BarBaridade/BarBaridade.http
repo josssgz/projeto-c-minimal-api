@@ -1,4 +1,4 @@
-@BarBaridade_HostAddress = http://localhost:5097
+@BarBaridade_HostAddress = http://localhost:5094
 
 GET {{BarBaridade_HostAddress}}/weatherforecast/
 Accept: application/json

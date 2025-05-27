@@ -177,11 +177,9 @@ formDelete.addEventListener('submit', (event) => {
     deleteBebida();
 });
 
-//////
 const formMistura = document.getElementById('form-mistura');
 const select1 = document.getElementById('select1');
 const select2 = document.getElementById('select2');
-const select3 = document.getElementById('select3');
 const nomeMistura = document.getElementById('nome-mistura');
 const teorMistura = document.getElementById('teor-mistura');
 const secaoResultado = document.getElementById('resultado-mistura');
@@ -195,7 +193,7 @@ const carregarOpcoes = async () => {
     
     todasBebidas = await response.json();
 
-    [select1, select2, select3].forEach(select => {
+    [select1, select2].forEach(select => {
       select.innerHTML = '<option value="">--Selecione--</option>';
       todasBebidas.forEach(b => {
         const option = document.createElement('option');
@@ -212,23 +210,21 @@ const carregarOpcoes = async () => {
 formMistura.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  const idsSelecionados = [select1.value, select2.value, select3.value].map(Number);
+  const idsSelecionados = [select1.value, select2.value].map(Number);
 
   const selecionadas = todasBebidas.filter(b => idsSelecionados.includes(b.id));
 
-  if (selecionadas.length !== 3) {
-    alert("Você deve selecionar 3 bebidas diferentes.");
+  if (selecionadas.length !== 2) {
+    alert("Você deve selecionar 2 bebidas diferentes.");
     return;
   }
 
   const nomeCombinado = selecionadas.map(b => b.nome).join(" + ");
   const mediaTeor = (
-    selecionadas.reduce((soma, b) => soma + b.teorAlcoolico, 0) / 3
+    selecionadas.reduce((soma, b) => soma + b.teorAlcoolico, 0) / 2
   ).toFixed(1);
 
   nomeMistura.textContent = nomeCombinado;
   teorMistura.textContent = mediaTeor;
   secaoResultado.style.display = "block";
 });
-
-carregarOpcoes();

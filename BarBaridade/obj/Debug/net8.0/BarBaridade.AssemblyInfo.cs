@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BarBaridade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da7df7f65c3ae357bab83c7d4c4661caa1db09ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a68a838559705c5144de02742ffa229c4320a176")]
 [assembly: System.Reflection.AssemblyProductAttribute("BarBaridade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BarBaridade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

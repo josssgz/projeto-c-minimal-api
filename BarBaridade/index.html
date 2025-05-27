@@ -42,27 +42,35 @@
         <ul id="lista-bebidas"></ul>
     </section>  
 
-    <!--  Misturar Bebidas  -->
-    <form action="" method="get" id="form-mistura">
-      <h2>Misturar Bebidas</h2>
 
-        <label for="select1">Escolha a 1ª bebida:</label>
-        <select id="select1" required></select>
 
-        <label for="select2">Escolha a 2ª bebida:</label>
-        <select id="select2" required></select>
+    <!-- Misturar Bebidas (Centralizado) -->
+    <div class="main-content">
+        <form id="form-mistura">
+        <h2>Misturar Bebidas</h2>
+  
+        <label for="select1">Bebida 1:</label>
+        <select id="select1" required>
+            <option value="">--Selecione--</option>
+            <!-- Opções serão inseridas via JS -->
+        </select>
+  
+        <label for="select2">Bebida 2:</label>
+        <select id="select2" required>
+            <option value="">--Selecione--</option>
+            <!-- Opções serão inseridas via JS -->
+        </select>
+  
+        <button type="submit">Misturar</button>
+        </form>
+  
+        <div id="resultado-mistura">
+        <h2>Resultado da Mistura</h2>
+        <p><strong>Nome:</strong> <span id="nome-mistura"></span></p>
+        <p><strong>Teor alcoólico total:</strong> <span id="teor-mistura"></span>%</p>
+        </div>
+    </div>
 
-        <label for="select3">Escolha a 3ª bebida:</label>
-        <select id="select3" required></select>
-
-     <button type="submit">Misturar</button>
-    </form>
-
-<section id="resultado-mistura" style="display:none;">
-  <h2>Drink Misturado</h2>
-  <p><strong>Nome:</strong> <span id="nome-mistura"></span></p>
-  <p><strong>Teor Alcoólico Médio:</strong> <span id="teor-mistura"></span>%</p>
-</section>
 
     
     <script src="./script.js"></script>
