@@ -141,8 +141,6 @@ const deleteBebida = async () => {
             throw new Error("Erro ao apagar bebida!");         
         }
 
-        // const resultado = await response.text();
-
         alert(`A bebida foi retirada do catálogo!`);
     } catch (error) {
         alert(error.message);
@@ -186,6 +184,7 @@ const secaoResultado = document.getElementById('resultado-mistura');
 
 let todasBebidas = [];
 
+// Função que carrega as opções dos selects de mistura puxando as bebidas do backend
 const carregarOpcoes = async () => {
   try {
     const response = await fetch(apiURL);
@@ -193,8 +192,9 @@ const carregarOpcoes = async () => {
     
     todasBebidas = await response.json();
 
+    // Preenche os dois selects com as bebidas retornadas da API
     [select1, select2].forEach(select => {
-      select.innerHTML = '<option value="">--Selecione--</option>';
+      select.innerHTML = '<option value="">--Selecione--</option>'; // opção padrão
       todasBebidas.forEach(b => {
         const option = document.createElement('option');
         option.value = b.id;
@@ -228,3 +228,9 @@ formMistura.addEventListener('submit', (e) => {
   teorMistura.textContent = mediaTeor;
   secaoResultado.style.display = "block";
 });
+
+// ----------------------------------------------
+// Chamada da função para carregar as opções
+// Isso garante que, ao carregar a página, os selects já estarão preenchidos
+// ----------------------------------------------
+carregarOpcoes();
