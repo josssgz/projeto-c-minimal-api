@@ -41,7 +41,7 @@ Essa aplicação simula a gestão de bebidas de um bar, onde é possível criar 
 git clone https://github.com/josssgz/projeto-c-minimal-api
 
 # 2. Acesse o repositório clonado do projeto
-cd projeto-c-minimal-api
+cd projeto-c-minimal-api/
 
 # 3. Acesse a branch correta do projeto
 git checkout feature/bebidas-mistura-base
