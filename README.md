@@ -1,8 +1,8 @@
-# 📚 BarBaridade
+# 🍹 BarBaridade
 
 ## 🧾 Descrição
 
-O BarBaridade é uma aplicação desenvolvida para gerenciar um catálogo de bebidas alcoólicas, permitindo realizar operações de cadastro de novas bebidas, edição, exclusão e busca de bebidas. Além disso, a aplicação oferece uma funcionalidade divertida que permite misturar duas bebidas, calculando o teor alcoólico médio da mistura, e exibindo um nome, uma frase criativa e uma imagem aleatória relacionada à combinação.
+O BarBaridade é uma aplicação desenvolvida para gerenciar um catálogo de bebidas, permitindo realizar operações de cadastro de novas bebidas, edição, exclusão e busca de bebidas. Além disso, a aplicação oferece uma funcionalidade divertida que permite misturar duas bebidas, calculando o teor alcoólico total da mistura, e exibindo um nome, uma frase criativa e uma imagem aleatória relacionada à combinação.
 
 Essa aplicação simula a gestão de bebidas de um bar, onde é possível criar um banco de dados de drinks e proporcionar sugestões de misturas de forma interativa.
 
