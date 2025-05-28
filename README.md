@@ -47,7 +47,7 @@ cd projeto-c-minimal-api
 git checkout feature/bebidas-mistura-base
 
 # 4. Acesse a pasta do projeto
-cd .\BarBaridade\
+cd BarBaridade/
 
 # 5. Execute
 dotnet run
