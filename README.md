@@ -46,13 +46,10 @@ cd projeto-c-minimal-api
 # 3. Acesse a branch correta do projeto
 git checkout feature/bebidas-mistura-base
 
-# 4. Acesse o código do projeto
-code .
-
-# 5. No terminal do VSCODE, execute
+# 4. Acesse a pasta do projeto
 cd .\BarBaridade\
 
-# 6. Em seguida
+# 5. Execute
 dotnet run
 
-# 7. Por último, abra o arquivo "index.html"
+# 6. Em seguida, abra o arquivo "index.html"
